@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	form(action='/login' method='POST')
+		.container
+			label
+				b Username
+			|
+			input(type='text', placeholder='Enter Username', name='username', required='')
+			|
+			label
+				b Password
+			|
+			input(type='password', placheolder='Enter Password', name='password', required='')
+			|
+			button(type='submit') Login
