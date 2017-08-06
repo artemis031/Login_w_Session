@@ -2,5 +2,5 @@
 One and only valid credential:
 
 
-Username: batMan |
-Password: laderlappen
+Username: wat |
+Password: wat
